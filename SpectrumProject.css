@@ -1,0 +1,32 @@
+td{
+    background-color: black;
+    height: 500px;
+    width: 250px;
+}
+.art{
+    margin: auto;
+}
+td{
+    border: 6px solid white;
+}
+#title{
+    text-align: center;
+    font-family: cursive;
+    
+}
+#r1{
+     background-color: rgb(253, 197, 245);
+     
+}
+#r2{
+    background-color: rgb(247, 174, 248);
+}
+#r3{
+    background-color: rgb(179, 136, 235);
+}
+#r4{
+    background-color: rgb(128, 147, 241);
+}
+#r5{
+    background-color: rgb(114, 221, 247);
+}

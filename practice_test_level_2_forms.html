@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+
+</head>
+<body>
+    <form action="https://www.youtube.com/">
+        <h1>COURSE SIGN-UP PAGE</h1>
+        <label for="fname">Firest Name: </label>
+        <input id="fname" type="text" placeholder="First name" required>
+        <label for="lname"> Last Name: </label>
+        <input id="lname" type="text" placeholder="Last name" required>
+        <p>
+            <label for="email">Email</label>
+            <input id="email" type="mail" placeholder="abc@gmail.com" required>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" required>
+        </p>
+        <p>
+            <h2>Are you above 18?</h2>
+            <label for="above">Yes</label>
+            <input id="above" type="radio" value="above"name="age">
+            <label for="below">No</label>
+            <input id="below" type="radio" value="below" name="age">
+
+        </p>
+        <p>
+            <h2>Do you have credit card or Paypal?</h2>
+            <select name="trans" >
+                <option value="1">Credit Card</option>
+                <option value="2">PayPal</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Submit Feedback">
+        </p>
+
+    </form>
+    
+</body>
+</html>

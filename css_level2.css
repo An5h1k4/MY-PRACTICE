@@ -1,0 +1,42 @@
+/* h1{
+    font-family: "Arial";
+    font-size: 3em;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 20px;
+}
+#two{
+    font-size: 1em;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+} */
+body{
+    background-color: black;
+    color: white;
+
+}
+
+
+#top{
+    border: 4px solid paleturquoise;
+    width:25%;
+    text-align: center;
+    margin: 10px 20px 100px 400px;
+
+    /* top,right,bottom,left */
+}
+#bottom{
+    border: 4px solid greenyellow;
+    width: 50%;
+    padding: 200px;
+    text-align: center;
+}
